@@ -62,7 +62,7 @@ const ProjectSection = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {Projects.map((project, key) => (
-                        <div key={key} className='group bg-card rounded-lg overflow-hidden shadow-xs'>
+                        <div key={key} className='group bg-card card-hover rounded-lg overflow-hidden shadow-xs'>
                             <div className='h-fit overflow-hidden'>
                                 <img src={project.image} alt={project.title} className='w-full h-full object-contain transition-transform duration-500 group-hover:scale-105' />
                             </div>
@@ -75,7 +75,7 @@ const ProjectSection = () => {
                                     ))}
                                 </div>
                                 
-                                <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+                                <h3 className="text-xl text-primary mt-2 mb-2 font-semibold mb-1">{project.title}</h3>
                                 <p className="text-foreground/70 text-xs mb-4"> {project.description}</p>
                                 
                                 <div className="flex justify-between items-center">
