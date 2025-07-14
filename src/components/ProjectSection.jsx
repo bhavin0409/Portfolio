@@ -23,7 +23,7 @@ const Projects = [
         id: 3,
         title: "Todo Reminder",
         description: "A platform for users to create and manage their todo lists. It allows users to add, edit, delete tasks, and set reminders.",
-        image: '/projects/todo-reminder.png',
+        image: '/projects/Todo-Reminder.png',
         tags: ['React', 'Tailwind CSS', 'Context API'],
         demoUrl: 'https://todo-context-api-pink.vercel.app/',
         githubUrl: 'https://github.com/bhavin0409/todoContextAPI'
