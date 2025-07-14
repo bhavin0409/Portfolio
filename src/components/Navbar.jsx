@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { href } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { cn } from "@/lib/utils"
 import { Menu, X } from 'lucide-react'
 
@@ -52,7 +51,6 @@ const Navbar = () => {
 
 
                 {/* mobile navbar */}
-
                 <button 
                 className='md:hidden text-foreground p-2 z-50 hover:text-primary transition-colors duration-300'
                 aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
