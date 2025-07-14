@@ -14,7 +14,7 @@ const Projects = [
         id: 2,
         title: "Code Reviewer",
         description: "A platform for developers to share and review code snippets.",
-        image: '/public/projects/Code-Reviewer.png',
+        image: '/projects/Code-Reviewer.png',
         tags: ['React', 'Tailwind CSS', 'Gemini-API', 'express.js', 'node.js'],
         demoUrl: 'https://code-reviewer-theta-ten.vercel.app/',
         githubUrl: 'https://github.com/bhavin0409/Code-Reviewer'
@@ -23,7 +23,7 @@ const Projects = [
         id: 3,
         title: "Todo Reminder",
         description: "A platform for users to create and manage their todo lists. It allows users to add, edit, delete tasks, and set reminders.",
-        image: '/public/projects/todo-reminder.png',
+        image: '/projects/todo-reminder.png',
         tags: ['React', 'Tailwind CSS', 'Context API'],
         demoUrl: 'https://todo-context-api-pink.vercel.app/',
         githubUrl: 'https://github.com/bhavin0409/todoContextAPI'
@@ -32,7 +32,7 @@ const Projects = [
         id: 4,
         title: "Currency Converter",
         description: "A tool to convert currencies with real-time exchange rates.",
-        image: '/public/projects/currency-converter.png',
+        image: '/projects/currency-converter.png',
         tags: ['React', 'Tailwind CSS', 'Currency API'],
         demoUrl: 'https://currency-project-three.vercel.app/',
         githubUrl: 'https://github.com/bhavin0409/currencyProject'
@@ -41,7 +41,7 @@ const Projects = [
         id: 5,
         title: "Password Maker",
         description: "A tool to generate secure passwords with various options.",
-        image: '/public/projects/Password-Maker.png',
+        image: '/projects/Password-Maker.png',
         tags: ['React', 'Tailwind CSS'],
         demoUrl: 'https://password-maker-mocha.vercel.app/',
         githubUrl: 'https://github.com/bhavin0409/passwordMaker'
