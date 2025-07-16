@@ -21,7 +21,7 @@ const AboutSection = () => {
 
                         <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 justify-center sm:justify-start'>
                             <a href="#contact" className='cosmic-button w-full sm:w-auto text-center'>Get In Touch</a>
-                            <a href="https://drive.google.com/file/d/1w0-yuEETH5wr3WoLdRd2j-lcGpwvAZEw/view?usp=drive_link" target='_blank' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/30 transition-colors duration-300 w-full sm:w-auto text-center'>Download CV</a>
+                            <a href="https://drive.google.com/file/d/1oCzVxq_dIX_oc1T2vCdeda4dJd_SJjH-/view?usp=drive_link" target='_blank' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/30 transition-colors duration-300 w-full sm:w-auto text-center'>Download CV</a>
                         </div>
                     </div>
 
