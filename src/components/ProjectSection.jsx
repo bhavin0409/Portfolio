@@ -2,6 +2,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const Projects = [
     {
+        id: 0,
+        title: "DBS Finance Tracker",
+        description: "Manage Your Finances With Intelligence",
+        image: '/projects/DBS-finance-tracker.png',
+        tags: ['Nextjs' , 'Shadcn UI' , 'Chart.js' , 'Prisma' , 'Clerk Auth' , 'Inngest'],
+        demoUrl: 'https://dbs-financetracker.netlify.app/',
+        githubUrl: 'https://github.com/bhavin0409/DBS-finance-tracker'
+    },
+    {
         id: 1,
         title: "Anime Blog",
         description: "A blog website where you can read and write articles about anime.",
